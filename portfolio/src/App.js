@@ -7,15 +7,16 @@ import Technology from "./components/technology";
 function App() {
   return (
     <div className="App">
-      <div>
-        <Hero />
-      </div>
+      {/* <div> */}
+      <Hero />
+
+      {/* </div> */}
       <div>
         <Projects />
       </div>
-      {/* <div style={{ backgroundColor: "white" }}> */}
-      {/* <Technology /> */}
-      {/* </div> */}
+      <div style={{ backgroundColor: "white" }}>
+        <Technology />
+      </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
